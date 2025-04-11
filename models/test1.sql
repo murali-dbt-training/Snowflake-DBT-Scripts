@@ -1,1 +1,1 @@
-select current_database() db
+ select current_database() db
