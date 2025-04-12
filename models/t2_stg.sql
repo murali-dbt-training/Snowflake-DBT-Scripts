@@ -1,0 +1,1 @@
+select * from {{ source('dem_db', 'T2') }}

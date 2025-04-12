@@ -1,3 +1,4 @@
+
 {% macro clone_db_sc_tb_mco(trg_db,trg_sc,src_db,src_sc,list_tables) %}
     {% set create_db %}
     create or replace database {{trg_db}};

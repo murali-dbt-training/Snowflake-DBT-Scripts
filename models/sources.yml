@@ -1,0 +1,28 @@
+sources:
+     - name : dem_db
+       database : demo_db
+       schema : demo_sc
+       tables:
+        - name : T1
+        - name:  T2
+        - name : T3
+    
+     - name: src_db
+       database: demo_dev_db
+       schema:  raw_sc
+       tables:
+         - name: T7
+
+     - name: AD_db
+       database: AADHAR_DEV_DB
+       schema : AADHAR_DEV_SC
+       tables:
+         - name: Employee_T 
+         - name: Employee_A
+         - name: Employee_H
+
+
+
+
+
+
