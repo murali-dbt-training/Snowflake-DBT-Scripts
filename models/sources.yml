@@ -12,6 +12,7 @@ sources:
        schema:  raw_sc
        tables:
          - name: T7
+         - name: Amazon_Customers
 
      - name: AD_db
        database: AADHAR_DEV_DB
