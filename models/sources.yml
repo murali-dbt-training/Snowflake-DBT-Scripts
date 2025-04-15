@@ -20,6 +20,8 @@ sources:
          - name: Employee_T 
          - name: Employee_A
          - name: Employee_H
+         - name: orders_datastg
+         - name: employees_Data
 
 
 
