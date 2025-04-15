@@ -43,3 +43,11 @@ models:
     datashare:
       +materialized: view
       +secure: true
+
+seeds:
+  my_new_project:  # use the actual name of your dbt project
+    Account_details:
+      column_types:
+        Account_Number: varchar
+
+

@@ -1,0 +1,8 @@
+seeds:
+  - name: Account_details
+    config:
+      columns_types:
+        Account_Number: varchar
+
+
+
