@@ -24,6 +24,16 @@ sources:
          - name: orders_datastg
          - name: employees_Data
 
+     - name: Stg_DB
+       database: SNW_DBT_PROFLOW
+       schema :  RAW
+       tables:
+        - name: customer
+        - name: sales
+        - name: orders
+         
+
+
 
 
 
