@@ -31,6 +31,15 @@ sources:
         - name: customer
         - name: sales
         - name: orders
+        - name: A_CUSTOMERS
+        - name: A_orders
+        - name: A_sales
+        - name: A_products
+        - name: A_categories
+        - name: A_addresses
+        - name: A_payments
+        
+    
          
 
 

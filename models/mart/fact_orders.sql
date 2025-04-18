@@ -1,11 +1,10 @@
 {{
     config(
-        target_database='SNW_DBT_TRG',
-        target_schema='TRG_SC',
+        database='SNW_DBT_TRG',
+        schema='TRG_SC',
         materialized='table',
-        transient = false,
-       
-    )
+        transient=false
+         )
 }}
 
 

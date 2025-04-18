@@ -1,3 +1,13 @@
+{{
+    config(
+        materialized='table',
+        transient = 'false',
+        database = 'SNW_DBT_TRG',
+        schema = 'TRG_SC',
+
+    )
+}}
+
 SELECT
     c.customer_id,
     c.full_name,
