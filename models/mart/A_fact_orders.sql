@@ -14,6 +14,7 @@ select   AO.order_id,
          AO.order_date,
          AO.status,
          AO.amount ,
+         AO.shipping_address_id,
          --Join with customer data
          DC.customer_full_name AS CustomerName,
          DC.customer_type,

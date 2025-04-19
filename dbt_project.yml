@@ -47,7 +47,15 @@ models:
       +materialized: view
       +secure: true
     mart:
+      +database: SNW_DBT_TRG
+      +schema: TRG_SC
       +materialized: table
+      reporting:
+        +database: SNW_DBT_TRG
+        +schema: REPORTING_TRG_SC
+        +materialized: table
+        
+
 
 
 seeds:
