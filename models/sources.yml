@@ -1,0 +1,50 @@
+sources:
+     - name : dem_db
+       database : demo_db
+       schema : demo_sc
+       tables:
+        - name : T1
+        - name:  T2
+        - name : T3
+    
+     - name: src_db
+       database: demo_dev_db
+       schema:  raw_sc
+       tables:
+         - name: T7
+         - name: Amazon_Customers
+
+     - name: AD_db
+       database: AADHAR_DEV_DB
+       schema : AADHAR_DEV_SC
+       tables:
+         - name: Employee_T 
+         - name: Employee_A
+         - name: Employee_H
+         - name: orders_datastg
+         - name: employees_Data
+
+     - name: Stg_DB
+       database: SNW_DBT_PROFLOW
+       schema :  RAW
+       tables:
+        - name: customer
+        - name: sales
+        - name: orders
+        - name: A_CUSTOMERS
+        - name: A_orders
+        - name: A_sales
+        - name: A_products
+        - name: A_categories
+        - name: A_addresses
+        - name: A_payments
+        
+    
+         
+
+
+
+
+
+
+

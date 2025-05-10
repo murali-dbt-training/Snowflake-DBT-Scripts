@@ -40,3 +40,32 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
+    datashare:
+      +materialized: view
+      +secure: true
+    staging:
+      +materialized: view
+      +secure: true
+    mart:
+      +database: SNW_DBT_TRG
+      +schema: TRG_SC
+      +materialized: table
+      reporting:
+        +database: SNW_DBT_TRG
+        +schema: REPORTING_TRG_SC
+        +materialized: table
+        
+
+
+
+seeds:
+  my_new_project:  # use the actual name of your dbt project
+    Account_details:
+      column_types:
+        Account_Number: varchar
+
+vars:
+  SNW_DBT_TRG: 'your_target_database_name'
+  TRG_SC: 'your_target_schema_name'
+
+
